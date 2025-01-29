@@ -1,0 +1,907 @@
+/* generals */
+
+body {
+  font-family: Inter;
+}
+
+.wrap {
+  display: flex;
+  gap: 32px;
+}
+
+/* aside */
+
+aside {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  min-height: 1262px;
+  height: 100%;
+  background-color: #14171f;
+  padding: 24px;
+}
+
+/* header */
+
+header {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 48px;
+}
+
+.logo {
+  display: flex;
+  gap: 12px;
+  border-bottom: 1px solid #3d414b;
+}
+
+h1 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+
+.student {
+  display: flex;
+  border-top: 1px solid #7d70bd;
+  border-bottom: 1px solid #7d70bd;
+  padding: 12px 0px;
+  gap: 8px;
+  align-items: center;
+}
+
+.andrio {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.andrio span {
+  color: #fff;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.andrio p {
+  color: #929699;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+/* nav */
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.menu {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.menu span {
+  color: #929699;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.padding {
+  padding: 32px 0;
+}
+
+.border {
+  border-top: 1px solid #3d414b;
+  border-bottom: 1px solid #3d414b;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 8px 24px;
+  border-radius: 8px;
+  border: 1px solid #7b62ff;
+}
+
+.btn span {
+  color: #7b62ff;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* main */
+
+main {
+  display: flex;
+  flex-direction: column;
+  max-width: 1080px;
+  width: 100%;
+  gap: 32px;
+}
+
+ul {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+ul li {
+  color: #2f2f2f;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.learn {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 24px;
+}
+
+.class {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.bell {
+  padding: 6px;
+  background-color: #f7f7f7;
+  border-radius: 50px;
+  display: flex;
+}
+
+.teach {
+  border-radius: 50px;
+  border: 1px solid #c7c7c7;
+  background-color: #f7f7f7;
+  padding: 8px 12px;
+  color: #2f2f2f;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+button:hover {
+  background-color: unset;
+}
+
+.account {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.hover:hover {
+  color: #fff;
+  background-color: #14171f;
+}
+
+.tune {
+  height: 228px;
+  align-items: center;
+  display: flex;
+  background: url(../images/image.svg) lightgray 50% / cover no-repeat;
+  border: 1px solid #c7c7c7;
+  padding-left: 40px;
+  border-radius: 20px;
+}
+
+.tune h2 {
+  color: #2f2f2f;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  max-width: 420px;
+  width: 100%;
+}
+
+.sectionWrap {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.personal {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 16px;
+  gap: 20px;
+  max-width: 702px;
+  width: 100%;
+  height: 352px;
+  border-radius: 16px;
+  border: 1px solid #c7c7c7;
+}
+
+.information {
+  display: flex;
+  justify-content: space-between;
+}
+
+.information div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.information div span {
+  color: #14171f;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.information div p {
+  color: #666;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+}
+
+.personal form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px 16px;
+}
+
+.form {
+  display: flex;
+  gap: 20px;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+}
+
+.name label {
+  color: #2f2f2f;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.abs {
+  position: absolute;
+  right: 20px;
+  top: 45px;
+}
+
+.fullName {
+  min-width: 325px;
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 1px solid #c7c7c7;
+  background-color: #f9fbfc;
+}
+
+.fullName:focus {
+  border: 1px solid #7b62ff;
+  background-color: #e6e1ff;
+  box-shadow: 0px 4px 4px 0px rgba(123, 98, 255, 0.25);
+}
+
+.fullName::placeholder {
+  color: #666;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.phone {
+  display: flex;
+  gap: 8px;
+}
+
+.textArea {
+  min-width: 250px;
+  width: 100%;
+}
+
+.number {
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #c7c7c7;
+  background-color: #f9fbfc;
+  padding: 0 16px;
+}
+
+.submit {
+  border-radius: 8px;
+  background-color: #7f56d9;
+  padding: 10px 24px;
+  align-self: flex-end;
+}
+
+.submit:hover {
+  background-color: #7f56d9;
+}
+
+.hide {
+  display: none;
+}
+
+.wrapTeam {
+  display: flex;
+  gap: 24px;
+  max-width: 702px;
+  width: 100%;
+  height: 352px;
+}
+
+.front {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 16px;
+  max-width: 432px;
+  width: 100%;
+  gap: 16px;
+  height: 272px;
+  border-radius: 16px;
+  border: 1px solid #c7c7c7;
+}
+
+.dep {
+  display: flex;
+  gap: 12px;
+}
+
+.width {
+  max-width: 133px;
+  width: 100%;
+}
+
+.dep div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.dep div span {
+  color: #666;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.dep div strong {
+  color: #14171f;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.back {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 12px;
+  background-color: #f9fbfc;
+  padding: 16px;
+  gap: 8px;
+}
+
+.brd {
+  border-radius: 600px;
+  border: 1px solid #c7c7c7;
+}
+
+.res {
+  display: flex;
+  max-width: 246px;
+  width: 100%;
+  flex-direction: column;
+  padding: 24px 16px;
+  gap: 16px;
+  border-radius: 16px;
+  border: 1px solid #c7c7c7;
+  height: 272px;
+}
+
+.pensil {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pensil span {
+  color: #14171f;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.enter {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.formal {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.link {
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 1px solid #c7c7c7;
+  background: #f9fbfc;
+}
+
+.link::placeholder {
+  color: #666;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.select {
+  display: flex;
+  gap: 8px;
+}
+
+.drop {
+  display: flex;
+  flex-direction: column;
+  max-width: 122px;
+  width: 100%;
+  align-items: center;
+  gap: 4px;
+}
+
+.linked {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border: 1px solid #c7c7c7;
+  background: #f9fbfc;
+  padding: 12px 16px;
+  border-radius: 8px;
+  justify-content: space-between;
+}
+
+.personalWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.linked span {
+  color: #666;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.display {
+  border-radius: 8px;
+  background: #f9fbfc;
+  display: flex;
+  padding: 10px 16px;
+  align-items: center;
+  align-self: stretch;
+}
+
+.git:hover {
+  background: #d2f0ff;
+}
+
+.display:hover {
+  background: #d2f0ff;
+}
+
+.linked:hover {
+  background: #d2f0ff;
+}
+.https:hover {
+  background: #d2f0ff;
+}
+
+.dis {
+  display: flex;
+  padding: 2px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  align-self: stretch;
+}
+
+.dis span {
+  color: #666;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.git {
+  padding: 10px 16px;
+  border-radius: 8px;
+  padding: 10px 16px;
+  align-items: center;
+  align-self: stretch;
+  background: #f9fbfc;
+}
+
+.git span {
+  color: #666;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.prof {
+  display: flex;
+  flex-direction: column;
+  max-width: 346px;
+  width: 100%;
+  padding: 16px;
+  gap: 12px;
+  border-radius: 16px;
+  background: #14171f;
+}
+
+.androi {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 12px;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.pro {
+  display: flex;
+  justify-content: space-between;
+}
+
+.iconOne {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.photo {
+  position: absolute;
+  bottom: 40px;
+  right: 50px;
+}
+
+.bg:hover {
+  background-color: rgb(251, 165, 5);
+}
+
+.bg {
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-radius: 100px;
+}
+
+.text {
+  align-self: center;
+  color: #2f2f2f;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.justify {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex: 1;
+}
+
+.align {
+  display: flex;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.menuForm {
+  border-radius: 8px;
+  background: #f9fbfc;
+  align-self: flex-start;
+}
+
+.gap {
+  gap: 2px;
+}
+
+.textLocation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex {
+  min-width: 280px;
+  width: 100%;
+  align-self: flex-start;
+}
+
+.https {
+  border-radius: 8px;
+  border: 1px solid #c7c7c7;
+  background: #f9fbfc;
+  padding: 12px 16px;
+  align-self: flex-start;
+  color: #666;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.words {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.word {
+  display: flex;
+  justify-content: space-between;
+}
+
+.span {
+  color: #2f2f2f;
+  text-align: center;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.spanOne {
+  color: #2f2f2f;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.about {
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 1px solid #c7c7c7;
+}
+
+.about span {
+  color: #666;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.btnWrap {
+  display: flex;
+  gap: 16px;
+}
+
+.submit {
+  color: #fff;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  aside {
+    display: none;
+  }
+
+  body:hover {
+    color: unset;
+    background-color: unset;
+    background: unset;
+  }
+  .hide {
+    display: block;
+  }
+  .flexWrap {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding-bottom: 16px;
+  }
+
+  main {
+    padding: 32px;
+  }
+
+  .sectionWrap {
+    flex-direction: column-reverse;
+  }
+
+  .account {
+    max-width: 704px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .prof {
+    max-width: 704px;
+    width: 100%;
+  }
+
+  .flex {
+    min-width: 640px;
+    width: 100%;
+  }
+
+  .personal {
+    max-width: 704px;
+    width: 100%;
+  }
+
+  .learn {
+    max-width: 704px;
+    width: 100%;
+  }
+
+  .tune {
+    max-width: 704px;
+    width: 100%;
+  }
+
+  main {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  aside {
+    display: none;
+  }
+  body:hover {
+    color: unset;
+    background-color: unset;
+    background: unset;
+  }
+  .hide {
+    display: block;
+  }
+  .flexWrap {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding-bottom: 16px;
+  }
+
+  main {
+    padding: 32px;
+    gap: 24px;
+    align-items: center;
+  }
+
+  .sectionWrap {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .account {
+    max-width: 288px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .prof {
+    max-width: 288px;
+    width: 100%;
+  }
+
+  .flex {
+    min-width: 224px;
+    width: 100%;
+  }
+
+  .fullName {
+    min-width: 224px;
+    width: 100%;
+  }
+
+  .personal {
+    max-width: 288px;
+    width: 100%;
+    height: unset;
+  }
+
+  .wrapTeam {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .tune h2 {
+    font-size: 24px;
+  }
+
+  .learn {
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 12px 16px;
+  }
+
+  .personalWrap {
+    align-items: center;
+  }
+
+  .name {
+    display: block;
+    max-width: 250px;
+    width: 100%;
+  }
+
+  .personal form {
+    flex-wrap: wrap;
+  }
+
+  .fullName {
+    min-width: 140px;
+    width: 100%;
+  }
+  .tune {
+    max-width: 288px;
+    width: 100%;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .front {
+    max-width: 288px;
+    width: 100%;
+    height: unset;
+  }
+
+  .information {
+    align-self: center;
+  }
+
+  .teach {
+    font-size: 12px;
+  }
+  .abs {
+    top: 35px;
+  }
+
+  .sectionWrap {
+    gap: 24px;
+  }
+
+  .res {
+    max-width: 288px;
+    width: 100%;
+  }
+}
