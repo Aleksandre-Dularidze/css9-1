@@ -122,14 +122,18 @@ nav {
   line-height: 24px;
 }
 
+.flexWrap {
+  gap: 16px;
+}
+
 /* main */
 
 main {
   display: flex;
   flex-direction: column;
-  max-width: 1080px;
   width: 100%;
   gap: 32px;
+  padding-right: 16px;
 }
 
 ul {
@@ -211,7 +215,6 @@ button:hover {
 .sectionWrap {
   display: flex;
   gap: 32px;
-  flex-wrap: wrap;
 }
 
 .personal {
@@ -553,7 +556,6 @@ button:hover {
 .prof {
   display: flex;
   flex-direction: column;
-  max-width: 346px;
   width: 100%;
   padding: 16px;
   gap: 12px;
@@ -634,6 +636,7 @@ button:hover {
 
 .gap {
   gap: 2px;
+  max-width: 100%;
 }
 
 .textLocation {
@@ -642,9 +645,8 @@ button:hover {
 }
 
 .flex {
-  min-width: 280px;
   width: 100%;
-  align-self: flex-start;
+  max-width: 100%;
 }
 
 .https {
@@ -742,6 +744,7 @@ button:hover {
 
   .account {
     max-width: 704px;
+    justify-content: center;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -808,14 +811,13 @@ button:hover {
   }
 
   .account {
-    max-width: 288px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .prof {
-    max-width: 288px;
     width: 100%;
   }
 
@@ -830,7 +832,6 @@ button:hover {
   }
 
   .personal {
-    max-width: 288px;
     width: 100%;
     height: unset;
   }
@@ -838,6 +839,7 @@ button:hover {
   .wrapTeam {
     flex-wrap: wrap;
     justify-content: center;
+    width: unset;
   }
 
   .tune h2 {
@@ -849,10 +851,12 @@ button:hover {
     flex-wrap: wrap;
     gap: 12px;
     padding: 12px 16px;
+    width: 100%;
   }
 
   .personalWrap {
     align-items: center;
+    width: 100%;
   }
 
   .name {
@@ -870,7 +874,6 @@ button:hover {
     width: 100%;
   }
   .tune {
-    max-width: 288px;
     width: 100%;
   }
 
@@ -880,13 +883,9 @@ button:hover {
   }
 
   .front {
-    max-width: 288px;
-    width: 100%;
+    max-width: 100%;
     height: unset;
-  }
-
-  .information {
-    align-self: center;
+    align-items: center;
   }
 
   .teach {
@@ -896,12 +895,19 @@ button:hover {
     top: 35px;
   }
 
+  ul {
+    justify-content: space-between;
+  }
+
   .sectionWrap {
     gap: 24px;
   }
 
   .res {
-    max-width: 288px;
-    width: 100%;
+    max-width: 100%
+  }
+
+  .class {
+    justify-content: space-between;
   }
 }
